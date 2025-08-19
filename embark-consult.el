@@ -408,6 +408,7 @@ category `consult-grep'."
   "r" #'consult-ripgrep
   "G" #'consult-git-grep
   "f" #'consult-find
+  "d" #'consult-fd
   "F" #'consult-locate)
 
 (defvar embark-consult-search-map
