@@ -350,6 +350,10 @@ category `consult-grep'."
                  nil nil #'equal)
       #'find-file)
 
+(setf (alist-get '(file . consult-fd) embark-default-action-overrides
+                 nil nil #'equal)
+      #'find-file)
+
 (setf (alist-get '(file . consult-locate) embark-default-action-overrides
                  nil nil #'equal)
       #'find-file)
